@@ -1,0 +1,44 @@
+name: EconomyAPI
+version: 1.0.0
+api: ["VeoZaxAPI"]
+author: VeoZax
+main: EconomyAPI\EconomyAPI
+description: "EconomyAPI plugin for VeoZaxAPI"
+
+commands:
+  addmoney:
+    description: "Add money to a player's balance"
+    usage: "/addmoney <amount> <player>"
+    permission: economyapi.admin
+  takemoney:
+    description: "Take money from a player and add it to your own balance"
+    usage: "/takemoney <player> <amount|amount:full>"
+    permission: economyapi.admin
+  removemoney:
+    description: "Remove money from a player's balance"
+    usage: "/removemoney <player> <amount|amount:full>"
+    permission: economyapi.admin
+  pay:
+    description: "Pay a player"
+    usage: "/pay <amount> <player>"
+    permission: economyapi.use
+  paytime:
+    description: "Check your remaining pay cooldown time"
+    usage: "/paytime"
+    permission: economyapi.use
+  money:
+    description: "Check your own balance"
+    usage: "/money"
+    permission: economyapi.use
+  seemoney:
+    description: "Check another player's balance"
+    usage: "/seemoney <player>"
+    permission: economyapi.use
+
+permissions:
+  economyapi.use:
+    description: "Use /pay, /paytime, /money, and /seemoney"
+    default: true
+  economyapi.admin:
+    description: "Use /addmoney, /takemoney, and /removemoney"
+    default: op
