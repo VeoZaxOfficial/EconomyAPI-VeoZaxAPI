@@ -4,7 +4,7 @@
 
 Every player gets a balance they can check, spend and send to others with `/money` and `/pay`, while operators manage money with simple commands. Works as a `.phar` or as a plain source folder.
 
-> Made by **VeoZax** for VeoZaxAPI - PocketMine-MP.
+> Made by **VeoZax** for VeoZaxAPI - the legacy-friendly PocketMine-MP API.
 
 ---
 
@@ -25,7 +25,7 @@ Every player gets a balance they can check, spend and send to others with `/mone
 
 ## 📋 Requirements
 
-- A server using **VeoZaxAPI**
+- A server running with **VeoZaxAPI**
 
 ---
 
