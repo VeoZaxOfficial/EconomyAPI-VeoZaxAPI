@@ -33,7 +33,7 @@ Every player gets a balance they can check, spend and send to others with `/mone
 
 ### As a `.phar`
 1. Download the `EconomyAPI` plugin from the repo as Zip or from MediaFire.
-- MediaFire Download Link = [EconomyAPI.zip](YOUR_MEDIAFIRE_LINK_HERE)
+- MediaFire Download Link = [EconomyAPI.zip](https://www.mediafire.com/file/x64pt55l2hai8g2/EconomyAPI_for_VeoZaxAPI.zip/file)
 2. Drop it into your server's `plugins/` folder.
 3. Restart the server.
 
